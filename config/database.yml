@@ -86,4 +86,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV["DATABASE_URL"] %>
+  url: postgres://postgres.ilaylmjheaijoszothzk:PiWQwWUAep2NpYdz@aws-0-ap-south-1.pooler.supabase.com:5432/postgres
